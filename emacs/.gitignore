@@ -1,0 +1,9 @@
+auto-save-list/
+elpa/
+tmp/
+tutorial/
+*cache*
+*history*
+*.data
+amx-items
+recentf
