@@ -1,0 +1,19 @@
+layout {
+    tab_template name="ranger-on-the-side" {
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="ranger" size="20%"
+            children
+        }
+    }
+    ranger-on-the-side name="my first tab" split_direction="horizontal" {
+        pane
+        pane
+    }
+    ranger-on-the-side name="my second tab" split_direction="vertical" {
+        pane
+        pane
+    }
+}

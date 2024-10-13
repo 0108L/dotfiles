@@ -1,0 +1,13 @@
+#!/bin/sh
+cd ~
+# user preferred settings
+
+#cursor size
+#export XCURSOR_SIZE=24
+
+#text editor
+export EDITOR=vim
+
+export BROWSER=microsoft-edge-dev
+
+#check /usr/local/bin/hyprstart
